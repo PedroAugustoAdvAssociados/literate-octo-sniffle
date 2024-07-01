@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Augusto Advogados Associados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background-color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #d4af37;
+        }
+        header h1 {
+            color: #d4af37;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            border-bottom: 2px solid #d4af37;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .form-container {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        .form-container h3 {
+            color: #d4af37;
+        }
+        .form-container label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        .form-container input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #d4af37;
+            border: none;
+            border-radius: 5px;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Pedro Augusto Advogados Associados</h1>
+</header>
+
+<nav>
+    <a href="#sobre-mim">Sobre Mim</a>
+    <a href="#area-cliente">Área do Cliente</a>
+    <a href="#contato">Contato</a>
+    <a href="#nossa-equipe">Nossa Equipe</a>
+    <a href="#areas-atuacao">Áreas de Atuação</a>
+    <a href="#noticias-juridicas">Notícias Jurídicas</a>
+    <a href="#admin">Administração</a>
+</nav>
+
+<section id="sobre-mim">
+    <h2>Sobre Mim</h2>
+    <p>Pedro Augusto dos Santos, nascido em 16 de março de 1995, é advogado especialista nas áreas de direito trabalhista, previdenciário e constitucional. Atualmente é coordenador em Schamkypou Bezerra Cursos Jurídicos e secretário geral da comissão de estágio e exame da ordem da subseção da OAB de Jaboatão dos Guararapes.</p>
+</section>
+
+<section id="area-cliente">
+    <h2>Área do Cliente</h2>
+    <p>Conteúdo exclusivo para clientes. Acesse suas informações e acompanhe seus processos.</p>
+    <div class="form-container">
+        <h3>Criar Cadastro</h3>
+        <form>
+            <label for="cadastro-nome">Nome</label>
+            <input type="text" id="cadastro-nome" name="cadastro-nome" required>
+            <label for="cadastro-email">E-mail</label>
+            <input type="email" id="cadastro-email" name="cadastro-email" required>
+            <label for="cadastro-senha">Senha</label>
+            <input type="password" id="cadastro-senha" name="cadastro-senha" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+    <div class="form-container">
+        <h3>Login</h3>
+        <form>
+            <label for="login-email">E-mail</label>
+            <input type="email" id="login-email" name="login-email" required>
+            <label for="login-senha">Senha</label>
+            <input type="password" id="login-senha" name="login-senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato comigo para consultas e mais informações.</p>
+    <p>Email: escritorio@pedroaugustoadv.com</p>
+    <p>Telefone: (81) 3203-7861 | (81) 97916-9090</p>
+</section>
+
+<section id="nossa-equipe">
+    <h2>Nossa Equipe</h2>
+    <p>Conheça a equipe de profissionais dedicados que trabalham comigo.</p>
+</section>
+
+<section id="areas-atuacao">
+    <h2>Áreas de Atuação</h2>
+    <p>Atuamos nas áreas de direito trabalhista, direito previdenciário e mais.</p>
+</section>
+
+<section id="noticias-juridicas">
+    <h2>Notícias Jurídicas</h2>
+    <p>Acompanhe as últimas notícias e atualizações no mundo jurídico.</p>
+</section>
+
+<section id="admin">
+    <h2>Administração</h2>
+    <p>Área exclusiva para o administrador do site. Aqui você pode gerenciar o conteúdo e os usuários.</p>
+    <div class="form-container">
+        <h3>Login de Administrador</h3>
+        <form>
+            <label for="admin-email">E-mail</label>
+            <input type="email" id="admin-email" name="admin-email" required>
+            <label for="admin-senha">Senha</label>
+            <input type="password" id="admin-senha" name="admin-senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Pedro Augusto dos Santos. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
